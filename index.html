@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>マイポートフォリオ</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c677feeb42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <p class="site-title-sub">My portfolio</p>
+    <h1 class="site-title">HI, MY NAME IS</h1>
+    <p class="site-description">Check out some of my works.</p>
+    <div class="buttons">
+      <a href="#about" class="button">LEARN MORE</a>
+      <a href="#contact" class="button button-showy">SEND MESSAGE</a>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2 class="heading">ABOUT ME</h2>
+    <p class="about-text">
+      はじめまして。<br>
+      ServiceNowを利用したITサービスマネジメントシステムを開発しています。<br>
+      産業技術高等専門学校でプログラミングを学び、現在は「株式会社Blueship」で働いています。 <br>
+      業務でJavaScriptを扱うことでWebデザインなどに興味を持ち、<br>
+      今はフロントエンドエンジニアを目指しています。
+    </p>
+  </section>
+
+  <section class="profile">
+    <h2 class="heading">PROFILE</h2>
+    <div class="profile-wrapper">
+      <div class="profile-box spring">
+        <img src="./images/nanohana.jpg" alt="春の画像" class="profile-image">
+        <div class="profile-description">
+        <div class="profile-description-inner">
+          <p class="profile-text">
+            高澤 一成(タカザワ イッセイ)と申します。<br>
+            1999年12月13日生まれの20歳です。<br>
+            都立産業技術高等専門学校を卒業した後、<br>
+            現在の会社に新卒採用されました。<br>
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="profile-box summer">
+        <img src="./images/atami.jpg" alt="夏の画像" class="profile-image">
+        <div class="profile-description">
+          <div class="profile-description-inner">
+          <p class="profile-text">
+            2015年に高専に入学し、<br>
+            初めてプログラミングに触れました。<br>
+            当時は作りたいモノがありませんでしたが、<br>
+            今では"Vue.js"や"React"を使った<br>
+            SPAを最前線で作れるようになりたいです。
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="profile-box autumn">
+        <img src="./images/tree_sky.jpg" alt="秋の画像" class="profile-image">
+        <div class="profile-description">
+          <div class="profile-description-inner">
+          <p class="profile-text">
+            勤務先企業名は「株式会社Blueship」。<br>
+            "Trinity"と呼ばれるリリース管理ソフトウェアを<br>
+            自社開発している会社です。<br>
+            私は自社製品に携わっておらず、<br>
+            "ServiceNow"と呼ばれるプラットフォームで、<br>
+            JavaScriptを学びながらシステム開発しています。
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="profile-box winter">
+        <img src="./images/illumination.jpg" alt="冬の画像" class="profile-image">
+        <div class="profile-description">
+          <div class="profile-description-inner">
+          <p class="profile-text">
+            "ServiceNow"のメンバーは少人数ですが、<br>
+            3,4人のグループで開発を行っています。<br>
+            しかし新入社員ということもあり、<br>
+            設計書通りのコーディングをするだけで、<br>
+            ヒアリングや設計などは行っていません。<br>
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="proLang">
+    <h2 class="heading"> <span class="heading-proLang1">PROGRAMMING</span><br><span class="heading-proLang2">LANGUAGE</span> </h2>
+    <div class="proLang-wrapper">
+      <div class="proLang-box">
+        <img src="./images/c.png" alt="c言語" class="proLang-c">
+        <div class="proLang-title">C言語</div>
+        <p class="proLang-text">
+          C言語を使用できます。<br>
+          条件分岐やループはもちろんのこと、<br>
+          ポインタや再起関数の概念は<br>
+          この言語で学びました。
+        </p>
+      </div>
+      <div class="proLang-box">
+        <img src="./images/python.png" alt="python" class="proLang-python">
+        <div class="proLang-title">Python</div>
+        <p class="proLang-text">
+          Pythonを使用できます。<br>
+          ディープラーニングを用いた<br>
+          チャットボットの作成や<br>
+          OpenCVで行う画像認識を高専で学びました。
+        </p>
+      </div>
+      <div class="proLang-box">
+        <img src="./images/php.png" alt="php" class="proLang-php">
+        <div class="proLang-title">PHP</div>
+        <p class="proLang-text">
+          PHPを使用できます。<br>
+          フレームワーク（CakePHP）を利用して、<br>
+          ログイン機能のある<br>
+          Webアプリケーション開発を学びました。
+        </p>
+      </div>
+    </div>
+
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="text" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+
+  <footer class="footer">
+    @ takazawa site
+  </footer>
+  <script src="./lib/placeholders.min.js"></script>
+</body>
+</html>
